@@ -1,4 +1,4 @@
-BEGIN;
+
 INSERT INTO blogful_articles (title, style, content)
 VALUES
   ('First post!', 'Interview',
@@ -22,4 +22,3 @@ VALUES
   ( 'Tenth post', 'How-to',
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum molestiae accusamus veniam consectetur tempora, corporis obcaecati ad nisi asperiores tenetur, autem magnam. Iste, architecto obcaecati tenetur quidem voluptatum ipsa quam?');
 
-    COMMIT;
